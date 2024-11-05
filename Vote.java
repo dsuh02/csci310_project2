@@ -1,7 +1,7 @@
 class Vote{
     private String voteId;
     private String userId;
-    private String evenId;
+    private String eventId;
     private boolean voteType;
 
     public void setVoteId(String voteId){
@@ -12,8 +12,8 @@ class Vote{
         this.userId = userId;
     }
 
-    public void setEventId(String evenId){
-        this.eventId = evenId;
+    public void setEventId(String eventId){
+        this.eventId = eventId;
     }
 
     public void setVoteType(boolean voteType){

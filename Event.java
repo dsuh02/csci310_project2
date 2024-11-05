@@ -11,11 +11,11 @@ class Event{
     private List<String> confirmedByUserIds;
     private List<String> flaggedByUserIds;
 
-    public void setEventId(String eventID){
-        this.eventId = eventID;
+    public void setEventId(String eventId){
+        this.eventId = eventId;
     }
 
-    public void setEventTitle(String title){
+    public void setTitle(String title){
         this.title = title;
     }
 
@@ -23,15 +23,15 @@ class Event{
         this.description = description;
     }
 
-    public void setLocation(String location){
+    public void setLocation(Location location){
         this.location = location;
     }
     
-    public void setDate(String date){
+    public void setDate(Date date){
         this.date = date;
     }
 
-    public void setTime(String time){
+    public void setTime(Time time){
         this.time = time;
     }
 
@@ -52,10 +52,10 @@ class Event{
     }
 
     public String getEventId(){
-        return eventID;
+        return eventId;
     }
 
-    public String getEventTitle(){
+    public String getTitle(){
         return title;
     }
 
@@ -67,7 +67,7 @@ class Event{
         return location;
     }
     
-    public Data getDate(){
+    public Date getDate(){
         return date;
     }
 

@@ -10,7 +10,7 @@ class VoteService{
         return false;
     }
     
-    public List<Votes> getVotesForEvent(String eventId){
+    public List<Vote> getVotesForEvent(String eventId){
         return null;
     }
 }

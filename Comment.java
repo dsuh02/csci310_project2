@@ -11,8 +11,8 @@ class Comment{
         this.userId = userId;
     }
 
-    public void setEventId(String eventID){
-        this.eventID = eventID;
+    public void setEventId(String eventId){
+        this.eventId = eventId;
     }
     public String getText(){
         return text;
@@ -23,7 +23,7 @@ class Comment{
     }
 
     public String getEventId(){
-        return eventID;
+        return eventId;
     }
 
 }

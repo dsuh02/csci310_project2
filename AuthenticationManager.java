@@ -2,7 +2,7 @@ class AuthenticationManager
 {
     private String currentUserId; 
 
-    public boolean login(String email,String password, String userName){
+    public boolean login(String email,String password){
         return false;
     }
 
